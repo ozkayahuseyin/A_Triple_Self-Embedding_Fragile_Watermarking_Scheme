@@ -1,21 +1,21 @@
 
 listing = dir('data/Test image/');
 listsize = size(listing);
-        i = 10;                         j = 28;
-%%%%%%%%%%%%%%%%%%%%%%%%%   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% i = 3  ->  Barbara 	%	% j = 0 	-> No attack	 %
-%     4  ->  Trucks     %  	%	  1-6   -> 75% attack	 %
-%     5  ->  Cameraman  %   %     7-12  -> 50% attack	 %
-%     6  ->  Sailboat   %   %	  13-18 -> 25% attack	 %
-%     7  ->  Goldhill   %   %	  19-26 -> 10-75% attack %
-%     8  ->  House      %	%	  27    -> /			 %
-%     9  ->  Lake      	%	%	  28    -> Spiral		 %
-%     10 ->  Mandril    % 	%	  29    -> X			 %
-%     11 ->  Peppers    %  	%	  30    -> \			 %
-%     12 ->  Pirate		%	%							 %
-%     13 ->  Plane		%	%							 %
-%     14 ->  Blonde		%	%							 %
-%%%%%%%%%%%%%%%%%%%%%%%%%   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        i = 10;                            j = 28;
+%%%%%%%%%%%%%%%%%%%%%%%%%       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i = 3  ->  Barbara 	%	% j = 0     -> No attack	 %
+%     4  ->  Trucks     %  	%     1-6   -> 75% attack	 %
+%     5  ->  Cameraman  %       %     7-12  -> 50% attack	 %
+%     6  ->  Sailboat   %       %     13-18 -> 25% attack	 %
+%     7  ->  Goldhill   %       %     19-26 -> 10-75% attack     %
+%     8  ->  House      %	%     27    -> /		 %
+%     9  ->  Lake      	%	%     28    -> Spiral		 %
+%     10 ->  Mandril    % 	%     29    -> X		 %
+%     11 ->  Peppers    %  	%     30    -> \		 %
+%     12 ->  Pirate	%	%				 %
+%     13 ->  Plane	%	%	        		 %
+%     14 ->  Blonde	%	%				 %
+%%%%%%%%%%%%%%%%%%%%%%%%%       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [filepath,name,ext] = fileparts(listing(i).name);
 disp("The " + name + " image selected");
